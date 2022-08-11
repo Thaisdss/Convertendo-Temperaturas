@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pt-br" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Convertendo Temperaturas</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertendo Temperaturas</title>
   <link rel="stylesheet" href="./style.css">
-
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<body>
+
 <header>
-  <h1 id='titulo'>
+  <h1>
     Convertendo Temperaturas
   </h1>
 </header>
-  <section>
-  <div>
-   <p> <input type = 'radio' name='ct' id='c-f' checked> Converter Celsius para Fahrenheit <br>
-    <input type = 'radio' name='ct' id='f-c'> Converter Fahrenheit para Celsius <br> </p>
-  <p> Temperatura desejada <input type='number' name='temp' id='temp'>
-    <input type= 'button' id= 'cal' value='Calcular' onclick='Calcular()'></p> 
-  </div>
-  <div id=res></div>
-  </section>
-  
-</body>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
+<main>
+  <section>
+    <p>
+      <input type = 'radio' name='ct' id='c-f' checked>
+      Converter Celsius para Fahrenheit
+    </p>
+
+    <p><input type = 'radio' name='ct' id='f-c'>
+      Converter Fahrenheit para Celsius
+    </p>
+
+    <p>
+      Temperatura desejada
+      <input type='number' name='temp' id='temp'>
+      <button onclick="Calcular()">Calcular</button>
+    </p>
+
+    <div id=res></div>
+  </section>
+</main>
+
+  <script  src="./script.js"></script>
 </body>
 </html>

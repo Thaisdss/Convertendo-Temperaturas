@@ -10,4 +10,6 @@ function Calcular() {
     var cal =(Number(temp.value)-32)*5/9
     res.innerHTML = `A temperatura ${temp.value}F° convertida para Celsius fica : ${cal}C°`
   }
+
+  temp.value = ""
 }

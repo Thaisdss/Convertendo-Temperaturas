@@ -1,32 +1,32 @@
 body{
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  color : black;
-  font-size : 25px;
-  background-image : url(https://thumbs.dreamstime.com/b/%C3%ADcone-quente-frio-do-vetor-term%C3%B4metro-123653037.jpg);
-  background-color: white;
-  background-position: center top;
-  background-repeat : no-repeat;
+  background-color: rgb(218, 229, 253);
+}
+
+h1{
+  font-size: 40px;
 }
 
 section{
   background-color : white;
-  border-radius : 10px;
-  box-shadow : 3px 3px 10px black;
-  margin : auto;
-  padding : 15px;
-  width : 750px;
+  font-size: 25px;
+  border-radius : 10px 0px;
+  margin: 64px auto;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .3);
+  padding: 15px;
+  max-width: 750px;
 }
 
-#cal{
+button{
+  background-color : rgb(127, 127, 207);
   font-size : 18px;
-  background-color : black;
-  color : white;
-  border-radius : 8px;
-  border-color : white;
-}
-
-#titulo{
-color : black;
-  font-size : 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 6px;
+  width: 100px;
 }
