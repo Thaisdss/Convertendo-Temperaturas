@@ -32,5 +32,6 @@ button{
   border-radius: 6px;
   border: 1px solid transparent;
   padding: 6px;
+  margin-top: 5px;
   width: 100px;
 }
